@@ -1,0 +1,29 @@
+@use '@/app/styles/mixins' as mix;
+
+.container {
+  display: flex;
+  gap: 80px;
+
+  @include mix.responsive(xs) {
+    flex-direction: column;
+    gap: 12px;
+    align-self: center;
+    text-align: center;
+  }
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 12px;
+}
+
+.item {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-white);
+}

@@ -1,0 +1,1 @@
+export { OfferBtn } from './ui';
