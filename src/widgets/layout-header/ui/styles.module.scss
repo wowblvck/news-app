@@ -1,0 +1,29 @@
+@use '@/app/styles/mixins' as mix;
+
+.header {
+  background: var(--color-white);
+  border-radius: 0 0 16px 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+
+  @include mix.responsive(xs, sm, md) {
+    gap: 30px;
+    justify-content: space-between;
+  }
+}
+
+.actions {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+
+  @include mix.responsive(xs, sm, md) {
+    margin-left: 0;
+  }
+}
