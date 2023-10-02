@@ -1,0 +1,1 @@
+export { FeedMajor } from './ui';

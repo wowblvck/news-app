@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 36px;
+  padding: 12px;
+  border-radius: 40px;
+  background: var(--color-gray-primary);
+}
+
+.body {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-black-primary);
+  text-align: center;
+}

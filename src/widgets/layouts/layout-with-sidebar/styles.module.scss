@@ -1,0 +1,13 @@
+@use '@/app/styles/mixins' as mix;
+
+.content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  padding-top: 24px;
+  padding-bottom: 113px;
+
+  @include mix.responsive(xs) {
+    grid-template-columns: 1fr;
+  }
+}

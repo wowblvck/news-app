@@ -1,0 +1,86 @@
+@use '@/app/styles/mixins' as mix;
+
+.nav {
+  @include mix.responsive(xs) {
+    overflow: auto;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  @include mix.responsive(xs) {
+    flex-direction: row;
+  }
+}
+
+.item {
+  width: 264px;
+  border-radius: 12px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s;
+
+  @include mix.responsive(sm) {
+    width: max-content;
+  }
+
+  @include mix.responsive(xs) {
+    flex-shrink: 0;
+    width: unset;
+  }
+
+  &:hover {
+    background: var(--color-black-secondary);
+
+    .icon {
+      fill: var(--color-white);
+      stroke: var(--color-white);
+    }
+
+    .label {
+      color: var(--color-white);
+    }
+  }
+
+  &_active {
+    background: var(--color-black-secondary);
+
+    .icon {
+      fill: var(--color-white);
+      stroke: var(--color-white);
+    }
+
+    .label {
+      color: var(--color-white);
+    }
+  }
+}
+
+.label {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-black-secondary);
+
+  @include mix.responsive(sm) {
+    display: none;
+  }
+}
+
+.icon {
+  fill: var(--color-black-secondary);
+  stroke: var(--color-black-secondary);
+}

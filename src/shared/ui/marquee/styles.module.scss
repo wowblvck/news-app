@@ -1,0 +1,23 @@
+.marqueeContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.marqueeContent {
+  min-width: 100%;
+  flex-shrink: 0;
+  animation-name: marquee;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
