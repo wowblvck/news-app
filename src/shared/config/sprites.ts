@@ -1,4 +1,11 @@
-export type SpriteCommon = 'search' | 'profile' | 'fire' | 'hot';
+export type SpriteCommon =
+  | 'search'
+  | 'profile'
+  | 'fire'
+  | 'hot'
+  | 'arrow'
+  | 'comments'
+  | 'bookmarks';
 export type SpriteSocial = 'telegram';
 export type SpriteDateAndCurrency = 'date' | 'USD' | 'EUR' | 'BTC';
 export type SpriteCategories =

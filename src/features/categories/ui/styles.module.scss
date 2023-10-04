@@ -20,6 +20,7 @@
 
   @include mix.responsive(xs) {
     flex-direction: row;
+    gap: 10px;
   }
 }
 

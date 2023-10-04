@@ -2,16 +2,18 @@ import React from 'react';
 import { NewsDto } from '@/shared/api';
 import styles from './styles.module.scss';
 
-type FeedListProps = {
+type ReadMoreListProps = {
   data: NewsDto[];
   onRender: (item: NewsDto) => React.ReactNode;
 };
 
-export const FeedList: React.FC<FeedListProps> = ({ data, onRender }) => {
+export const ReadMoreList: React.FC<ReadMoreListProps> = ({ data, onRender }) => {
   return (
     <ul className={styles.list}>
-      {data.map((feed) => (
-        <li key={feed.id}>{onRender(feed)}</li>
+      {data.map((item) => (
+        <li key={item.id} className={styles.item}>
+          {onRender(item)}
+        </li>
       ))}
     </ul>
   );

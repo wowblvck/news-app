@@ -1,4 +1,4 @@
-export type FeedDto = {
+export type NewsDto = {
   id: number;
 
   /**
@@ -41,6 +41,18 @@ export type FeedDto = {
    * @example false
    */
   hot: boolean;
+
+  /**
+   * ID реакций, которой принадлежит новость
+   * @example 3
+   */
+  reactionId: number;
+
+  /**
+   * Реакции новости
+   * @returns ReactionDto
+   */
+  reaction?: ReactionDto;
 };
 
 export type CategoryDto = {
@@ -61,4 +73,38 @@ export type CategoryDto = {
    * @example 12
    */
   order: number;
+};
+
+export type ReactionDto = {
+  id: number;
+
+  /**
+   * Счетчик лайков
+   * @example 12
+   */
+  like: number;
+
+  /**
+   * Счетчик дизлайков
+   * @example 5
+   */
+  dislike: number;
+
+  /**
+   * Счетчик "плохих" новостей
+   * @example 2
+   */
+  bullshit: number;
+
+  /**
+   * Счетчик комментариев
+   * @example 245
+   */
+  comments: number;
+
+  /**
+   * Счетчик закладок
+   * @example 17
+   */
+  bookmarks: number;
 };

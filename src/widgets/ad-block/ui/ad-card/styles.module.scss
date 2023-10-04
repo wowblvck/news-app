@@ -72,7 +72,7 @@
 
 .tooltip {
   position: relative;
-
+  transition: opacity 0.3s;
   &:before {
     content: attr(data-text);
     font-size: 12px;
@@ -89,9 +89,11 @@
     background: rgba(38, 38, 38, 0.8);
     color: #fff;
     text-align: center;
-    z-index: -1;
     opacity: 0;
-    transition: opacity 0.3s;
+    visibility: hidden;
+    transition:
+      opacity 300ms ease,
+      visibility 0s ease 300ms;
   }
 
   &:after {
@@ -105,12 +107,18 @@
     border-width: 10px;
     border-style: solid;
     border-color: transparent transparent rgba(38, 38, 38, 0.8) transparent;
-    z-index: -1;
     opacity: 0;
-    transition: opacity 0.3s;
+    visibility: hidden;
+    transition:
+      opacity 300ms ease,
+      visibility 0s ease 300ms;
   }
   &:hover:before,
   &:hover:after {
     opacity: 1;
+    visibility: visible;
+    transition:
+      opacity 300ms ease,
+      visibility 0s ease 0s;
   }
 }

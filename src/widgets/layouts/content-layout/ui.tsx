@@ -4,21 +4,21 @@ import styles from './styles.module.scss';
 type ContentLayoutProps = {
   feedSlot?: React.ReactNode;
   adSlot?: React.ReactNode;
-  readSlot?: React.ReactNode;
+  readMoreSlot?: React.ReactNode;
   cardsSlot?: React.ReactNode;
 };
 
 export const ContentLayout: React.FC<ContentLayoutProps> = ({
   feedSlot,
   adSlot,
-  readSlot,
+  readMoreSlot,
   cardsSlot,
 }) => {
   return (
     <div className={styles.contentContainer}>
       {feedSlot}
       {adSlot}
-      {readSlot}
+      {readMoreSlot}
       {cardsSlot}
     </div>
   );
