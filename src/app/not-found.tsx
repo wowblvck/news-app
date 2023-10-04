@@ -10,6 +10,7 @@ export default function NotFound() {
           src="/images/not-found.png"
           className={styles.image}
           fill
+          sizes="500px"
           priority={true}
           alt="Not found"
         />

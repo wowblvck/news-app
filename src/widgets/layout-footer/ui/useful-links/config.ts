@@ -1,3 +1,4 @@
+import { routes } from '@/shared/config';
 import { UsefulLinkType } from './types';
 
 /*
@@ -7,25 +8,25 @@ import { UsefulLinkType } from './types';
 export const links: UsefulLinkType[][] = [
   [
     {
-      url: '/contacts',
+      url: routes.contacts,
       name: 'Контакты',
     },
     {
-      url: '/redaction',
+      url: routes.redaction,
       name: 'Редакция',
     },
   ],
   [
     {
-      url: '/private-policy',
+      url: routes.policy,
       name: 'Политика конфиденциальности',
     },
     {
-      url: '/terms',
+      url: routes.terms,
       name: 'Условия использования',
     },
     {
-      url: '/advertise',
+      url: routes.advertise,
       name: 'Реклама',
     },
   ],

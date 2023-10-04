@@ -22,7 +22,7 @@ export const AdCard: React.FC<AdCardProps> = ({ data }) => {
         </a>
         <p className={styles.title}>Реклама</p>
       </div>
-      {error ? (
+      {error || image === null ? (
         <div className={styles.fallback}>Реклама</div>
       ) : (
         <Image
