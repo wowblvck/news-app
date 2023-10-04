@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.countValue {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-gray-fivefold);
+
+  &_action {
+    font-size: 12px;
+    color: var(--color-gray-quaternary);
+  }
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 14px;
+  cursor: pointer;
+}

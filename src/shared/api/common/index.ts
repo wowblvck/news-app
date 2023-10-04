@@ -1,3 +1,3 @@
-export type { CategoryDto, FeedDto } from './types';
+export type { CategoryDto, NewsDto, ReactionDto } from './types';
 export { BASE_URL } from './config';
-export { getCategoriesData, getLastFeeds, getHotNews } from './api';
+export { getCategoriesData, getLastFeeds, getMajorNews, getNews } from './api';

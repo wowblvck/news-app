@@ -1,5 +1,5 @@
 import { BASE_URL, MAX_LIST_FEEDS } from './config';
-import { CategoryDto, FeedDto } from './types';
+import { CategoryDto, NewsDto } from './types';
 
 const NEWS_URL = '/news';
 const CATEGORIES_URL = '/categories';
@@ -16,16 +16,27 @@ export const getLastFeeds = async () => {
   if (!res.ok) {
     throw new Error('Произошла ошибка');
   }
-  const feeds: FeedDto[] = await res.json();
+  const feeds: NewsDto[] = await res.json();
   return feeds;
 };
 
-export const getHotNews = async () => {
+export const getNews = async (startIndex: number) => {
+  const res = await fetch(
+    `${BASE_URL}${NEWS_URL}?_expand=category&_expand=reaction&_sort=date_full&_order=desc&_start=${startIndex}&_limit=4`
+  );
+  if (!res.ok) {
+    throw new Error('Произошла ошибка');
+  }
+  const feeds: NewsDto[] = await res.json();
+  return feeds;
+};
+
+export const getMajorNews = async () => {
   const res = await fetch(`${BASE_URL}${NEWS_URL}?hot=true&_sort=date_full&_order=desc&_limit=1`);
   if (!res.ok) {
     throw new Error('Произошла ошибка');
   }
-  const hotNews: FeedDto[] = await res.json();
+  const hotNews: NewsDto[] = await res.json();
   return hotNews[0];
 };
 

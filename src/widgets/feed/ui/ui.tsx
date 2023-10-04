@@ -1,10 +1,10 @@
 import { FeedContent, FeedList, FeedItem, FeedMajor } from '@/entities/feed';
-import { getHotNews, getLastFeeds } from '@/shared/api';
+import { getMajorNews, getLastFeeds } from '@/shared/api';
 import styles from './styles.module.scss';
 
 export const Feed = async () => {
   const feeds = await getLastFeeds();
-  const hotNews = await getHotNews();
+  const majorNews = await getMajorNews();
 
   return (
     <section id="#лента" className={styles.container}>
@@ -14,7 +14,7 @@ export const Feed = async () => {
           <FeedList data={feeds} onRender={(item) => <FeedItem item={item} />} />
         </FeedContent.Body>
       </FeedContent>
-      <FeedMajor data={hotNews} />
+      <FeedMajor data={majorNews} />
     </section>
   );
 };
