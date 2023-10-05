@@ -1,3 +1,3 @@
-import { envClientSchema } from 'env-validate';
+import { env } from '@/env.mjs';
 
-export const BASE_URL = envClientSchema.NEXT_PUBLIC_BASE_URL;
+export const BASE_URL = env.NEXT_PUBLIC_BASE_URL;
