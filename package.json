@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "json-server --watch db.json",
+    "dev:routes": "json-server --watch db.json --routes routes.json",
     "start": "node server.js"
   },
   "repository": {
