@@ -1,0 +1,1 @@
+export { NewsByCategoryItem } from './ui';

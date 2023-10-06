@@ -7,7 +7,7 @@ export const Feed = async () => {
   const majorNews = await getMajorNews();
 
   return (
-    <section id="#лента" className={styles.container}>
+    <section className={styles.container}>
       <FeedContent>
         <FeedContent.Title>Лента</FeedContent.Title>
         <FeedContent.Body>

@@ -1,16 +1,5 @@
 @use '@/app/styles/mixins' as mix;
 
-.nav {
-  @include mix.responsive(xs) {
-    overflow: auto;
-
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
-}
-
 .list {
   padding: 0;
   margin: 0;

@@ -5,21 +5,21 @@ type ContentLayoutProps = {
   feedSlot?: React.ReactNode;
   adSlot?: React.ReactNode;
   readMoreSlot?: React.ReactNode;
-  cardsSlot?: React.ReactNode;
+  newsByCategorySlot?: React.ReactNode;
 };
 
 export const ContentLayout: React.FC<ContentLayoutProps> = ({
   feedSlot,
   adSlot,
   readMoreSlot,
-  cardsSlot,
+  newsByCategorySlot,
 }) => {
   return (
     <div className={styles.contentContainer}>
       {feedSlot}
       {adSlot}
       {readMoreSlot}
-      {cardsSlot}
+      {newsByCategorySlot}
     </div>
   );
 };

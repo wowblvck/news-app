@@ -6,6 +6,7 @@ import { DateAndCurrencyInfo } from '@/widgets/date-and-currency';
 import { LayoutFooter } from '@/widgets/layout-footer';
 import { LayoutHeader } from '@/widgets/layout-header';
 import { BaseLayout } from '@/widgets/layouts';
+import Providers from './providers';
 import './styles/index.scss';
 
 export const metadata: Metadata = {
@@ -21,12 +22,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ru" className={clsx(roboto.variable, inter.variable, montserrat.variable)}>
       <body className={'page'}>
-        <BaseLayout
-          headerSlot={<LayoutHeader widgetSlot={<DateAndCurrencyInfo />} />}
-          footerSlot={<LayoutFooter />}
-        >
-          {children}
-        </BaseLayout>
+        <Providers>
+          <BaseLayout
+            headerSlot={<LayoutHeader widgetSlot={<DateAndCurrencyInfo />} />}
+            footerSlot={<LayoutFooter />}
+          >
+            {children}
+          </BaseLayout>
+        </Providers>
       </body>
     </html>
   );

@@ -15,10 +15,10 @@ export const ReadMore = async () => {
           <ReadMoreList
             data={news}
             onRender={(item) => (
-              <>
-                <ReadMoreItem item={item} />
-                {item.reaction && <Reactions data={item.reaction} />}
-              </>
+              <ReadMoreItem
+                item={item}
+                reactionSlot={item.reaction && <Reactions data={item.reaction} />}
+              />
             )}
           />
         </ReadMoreContent.Body>

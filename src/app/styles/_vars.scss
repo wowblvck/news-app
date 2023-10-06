@@ -1,3 +1,5 @@
+@import './breakpoints';
+
 :root {
   --color-white: #ffffff;
 
@@ -12,4 +14,13 @@
   --color-gray-fivefold: #474747;
 
   --color-orange: #ff6b00;
+
+  --breakpoint-xs: #{$xs};
+  --breakpoint-sm: #{$sm};
+  --breakpoint-md: #{$md};
+  --breakpoint-lg: #{$lg};
+  --breakpoint-xl: #{$xl};
+  --breakpoint-xxl: #{$xxl};
+
+  --offset-nav-position: 20;
 }

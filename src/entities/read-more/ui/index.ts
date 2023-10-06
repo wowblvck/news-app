@@ -1,3 +1,3 @@
 export { ReadMoreContent } from './ui';
-export { ReadMoreList } from './read-more-list';
-export { ReadMoreItem } from './read-more-item';
+export * from './read-more-list';
+export * from './read-more-item';

@@ -1,9 +1,11 @@
+import { AvailableCategoryValue } from '@/shared/api';
+
 type Id = number;
 
 export const routes = {
   home: '/',
   feed: (id: Id): string => `/feed/${id}`,
-  category: (category: string): string => `/category/${category}`,
+  category: (category: AvailableCategoryValue): string => `/category/${category}`,
   read_more: '/read-more',
   terms: '/terms',
   policy: '/private-policy',

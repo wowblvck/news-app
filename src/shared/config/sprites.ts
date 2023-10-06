@@ -1,3 +1,5 @@
+import { AvailableCategoryValue } from '@/shared/api';
+
 export type SpriteCommon =
   | 'search'
   | 'profile'
@@ -8,22 +10,7 @@ export type SpriteCommon =
   | 'bookmarks';
 export type SpriteSocial = 'telegram';
 export type SpriteDateAndCurrency = 'date' | 'USD' | 'EUR' | 'BTC';
-export type SpriteCategories =
-  | 'лента'
-  | 'происшествия'
-  | 'авто'
-  | 'бизнес'
-  | 'здоровье'
-  | 'крипто'
-  | 'недвижимость'
-  | 'образование'
-  | 'политика'
-  | 'туризм'
-  | 'шоу-бизнес'
-  | 'спорт'
-  | 'стиль'
-  | 'наука-и-технологии'
-  | 'экономика';
+export type SpriteCategories = 'лента' & AvailableCategoryValue;
 
 export type SpritesMeta = {
   common: SpriteCommon;
