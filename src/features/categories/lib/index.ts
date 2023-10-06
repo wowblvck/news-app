@@ -1,0 +1,1 @@
+export { mapToOptions } from './mapToOptions';

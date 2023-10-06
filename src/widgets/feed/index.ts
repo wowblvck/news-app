@@ -1,1 +1,1 @@
-export { Feed } from './ui';
+export * from './ui';

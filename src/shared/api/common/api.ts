@@ -1,5 +1,5 @@
 import { BASE_URL, MAX_LIST_FEEDS } from './config';
-import { CategoryDto, NewsDto } from './types';
+import { AvailableCategoryValue, CategoryDto, NewsDto } from './types';
 
 const NEWS_URL = '/news';
 const CATEGORIES_URL = '/categories';
@@ -27,8 +27,28 @@ export const getNews = async (startIndex: number) => {
   if (!res.ok) {
     throw new Error('Произошла ошибка');
   }
-  const feeds: NewsDto[] = await res.json();
-  return feeds;
+  const news: NewsDto[] = await res.json();
+  return news;
+};
+
+export const getCategoryByName = async (category: AvailableCategoryValue) => {
+  const res = await fetch(`${BASE_URL}${CATEGORIES_URL}/${category}`);
+  if (!res.ok) {
+    throw new Error('Произошла ошибка');
+  }
+  const categoryRes: CategoryDto[] = await res.json();
+  return categoryRes[0];
+};
+
+export const getNewsByCategoryId = async (id: number) => {
+  const res = await fetch(
+    `${BASE_URL}${CATEGORIES_URL}/${id}/news?_expand=category&_expand=reaction&_sort=date_full&_order=desc`
+  );
+  if (!res.ok) {
+    throw new Error('Произошла ошибка');
+  }
+  const news: NewsDto[] = await res.json();
+  return news;
 };
 
 export const getMajorNews = async () => {

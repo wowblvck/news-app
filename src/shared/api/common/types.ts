@@ -28,6 +28,13 @@ export type NewsDto = {
    * ID категории, которой принадлежит новость
    * @example 3
    */
+
+  /**
+   * Ссылка на миниатюру картинки (превью)
+   * @example https://cdn-st1.smotrim.ru/vh/pictures/xw/222/242/4.jpg
+   */
+  thumbnail: string;
+
   categoryId: number;
 
   /**
@@ -67,12 +74,16 @@ export type CategoryDto = {
    * Значение категории (в нижнем регистре)
    * @example политика
    */
-  value: string;
+  value: AvailableCategoryValue;
   /**
    * Порядковый номер в списке для отображения
    * @example 12
    */
   order: number;
+  /**
+   * Новости категории
+   */
+  news?: NewsDto[];
 };
 
 export type ReactionDto = {
@@ -108,3 +119,19 @@ export type ReactionDto = {
    */
   bookmarks: number;
 };
+
+export type AvailableCategoryValue =
+  | 'происшествия'
+  | 'авто'
+  | 'бизнес'
+  | 'здоровье'
+  | 'крипто'
+  | 'недвижимость'
+  | 'образование'
+  | 'политика'
+  | 'туризм'
+  | 'шоу-бизнес'
+  | 'спорт'
+  | 'стиль'
+  | 'наука-и-технологии'
+  | 'экономика';

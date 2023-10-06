@@ -1,11 +1,12 @@
-'use client';
-
 import clsx from 'clsx';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { CategoryDto } from '@/shared/api';
-import { SpritesMeta } from '@/shared/config';
+import { SpriteCategories } from '@/shared/config';
 import { Icon } from '@/shared/ui';
 import { staticCategory } from '../config';
+import { mapToOptions } from '../lib';
+import { CategoryOption } from '../model';
 import styles from './styles.module.scss';
 
 type CategoriesType = {
@@ -13,6 +14,7 @@ type CategoriesType = {
 };
 
 export const Categories: React.FC<CategoriesType> = ({ data }) => {
+  const router = useRouter();
   const [selectValue, setSelectValue] = React.useState<number>(0);
 
   const handleSelectItem = (event: React.MouseEvent<HTMLUListElement>) => {
@@ -25,35 +27,35 @@ export const Categories: React.FC<CategoriesType> = ({ data }) => {
 
       if (dataId && dataValue) {
         setSelectValue(Number(dataId));
+        router.push(`#${dataValue}`);
       }
     }
   };
 
-  const allCategories = [staticCategory, ...data];
+  const allCategories: CategoryOption[] = [staticCategory, ...mapToOptions(data)];
 
   return (
-    <nav className={styles.nav}>
-      <ul className={styles.list} onClick={handleSelectItem}>
-        {allCategories.map((category, idx) => {
-          return (
-            <li
-              key={category.value}
-              className={clsx(styles.item, idx === selectValue && styles['item_active'])}
-              data-id={idx}
-              data-value={category.value}
-            >
-              <Icon
-                type={'categories'}
-                name={category.value as SpritesMeta['categories']}
-                width={32}
-                height={32}
-                className={clsx(styles.icon)}
-              />
-              <p className={styles.label}>{category.label}</p>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+    <ul className={styles.list} onClick={handleSelectItem}>
+      {allCategories.map((category, idx) => {
+        const { value, label } = category;
+        return (
+          <li
+            key={value}
+            className={clsx(styles.item, idx === selectValue && styles['item_active'])}
+            data-id={idx}
+            data-value={value}
+          >
+            <Icon
+              type={'categories'}
+              name={value as SpriteCategories}
+              width={32}
+              height={32}
+              className={clsx(styles.icon)}
+            />
+            <p className={styles.label}>{label}</p>
+          </li>
+        );
+      })}
+    </ul>
   );
 };

@@ -1,0 +1,21 @@
+@use '@/app/styles/mixins' as mix;
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  @include mix.responsive(xs) {
+    justify-content: center;
+  }
+}
+
+.item {
+  flex: 0 1;
+  border-radius: 12px;
+  background: var(--color-white);
+  padding-bottom: 12px;
+}

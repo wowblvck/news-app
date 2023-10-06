@@ -8,26 +8,30 @@ import styles from './styles.module.scss';
 
 type ReadMoreItemProps = {
   item: NewsDto;
+  reactionSlot?: React.ReactNode;
 };
 
-export const ReadMoreItem: React.FC<ReadMoreItemProps> = ({ item }) => {
+export const ReadMoreItem: React.FC<ReadMoreItemProps> = ({ item, reactionSlot }) => {
   const { title, category, date_full, id } = item;
 
   const formattedDate = moment(date_full).format('D.MM.YYYY, HH:mm');
 
   return (
     <div className={styles.container}>
-      <div className={styles.head}>
-        {category && (
-          <Link href={routes.category(category.value)}>
-            <Chip>{category.label}</Chip>
-          </Link>
-        )}
-        <time className={styles.date}>{formattedDate}</time>
+      <div className={styles.content}>
+        <div className={styles.head}>
+          {category && (
+            <Link href={routes.category(category.value)}>
+              <Chip>{category.label}</Chip>
+            </Link>
+          )}
+          <time className={styles.date}>{formattedDate}</time>
+        </div>
+        <Link href={routes.feed(id)} className={styles.title}>
+          {title}
+        </Link>
       </div>
-      <Link href={routes.feed(id)} className={styles.title}>
-        {title}
-      </Link>
+      {reactionSlot}
     </div>
   );
 };

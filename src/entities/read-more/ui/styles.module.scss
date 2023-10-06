@@ -1,8 +1,14 @@
+@use '@/app/styles/mixins' as mix;
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 32px;
+
+  @include mix.responsive(xs) {
+    padding: 16px;
+  }
 }
 
 .title {

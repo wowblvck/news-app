@@ -1,8 +1,6 @@
-import { CategoryDto } from '@/shared/api';
+import { CategoryOption } from '../model';
 
-export const staticCategory: CategoryDto = {
-  id: -1,
+export const staticCategory: CategoryOption = {
   label: 'Лента',
   value: 'лента',
-  order: -1,
 };

@@ -1,11 +1,33 @@
 @use '@/app/styles/mixins' as mix;
 
+.nav {
+  position: sticky;
+  top: calc(var(--offset-nav-position) * 1px);
+  height: fit-content;
+  z-index: 1;
+
+  @include mix.responsive(xs) {
+    overflow: auto;
+
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &_scroll {
+    padding: 20px;
+    background: var(--color-white);
+    border-radius: 12px;
+  }
+}
+
 .content {
+  position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 12px;
   padding-top: 24px;
-  padding-bottom: 113px;
 
   @include mix.responsive(xs) {
     grid-template-columns: 1fr;

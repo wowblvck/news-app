@@ -1,3 +1,5 @@
+@use './mixins' as mix;
+
 html {
   box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -31,4 +34,10 @@ p {
   background: var(--color-gray-secondary);
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+.categorySection {
+  @include mix.responsive(xs) {
+    scroll-margin-top: 115px;
+  }
 }
