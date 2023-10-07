@@ -9,9 +9,9 @@ type GetCategoriesListParams = {
   order: 'asc' | 'desc';
 };
 
-export const getLastFeeds = async () => {
+export const getLastFeeds = async (maxFeeds = MAX_LIST_FEEDS) => {
   const res = await fetch(
-    `${BASE_URL}${NEWS_URL}?_expand=category&_limit=${MAX_LIST_FEEDS}&_sort=date_full&_order=desc`
+    `${BASE_URL}${NEWS_URL}?_expand=category&_limit=${maxFeeds}&_sort=date_full&_order=desc`
   );
   if (!res.ok) {
     throw new Error('Произошла ошибка');

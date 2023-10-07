@@ -1,14 +1,21 @@
+'use client';
+
+import { useQuery } from '@tanstack/react-query';
 import React from 'react';
-import { getAdvertise } from '@/shared/api';
+import { AdvertiseDto, getAdvertise } from '@/shared/api';
 import { AdCard } from './ad-card';
 import styles from './styles.module.scss';
 
-export const AdBlock = async () => {
-  const data = await getAdvertise();
+type AdBLockProps = {
+  initialData?: AdvertiseDto;
+};
 
-  return (
-    <section className={styles.container}>
-      <AdCard data={data} />
-    </section>
-  );
+export const AdBlock: React.FC<AdBLockProps> = ({ initialData }) => {
+  const { data: adv } = useQuery({
+    queryKey: ['advertise'],
+    queryFn: () => getAdvertise(),
+    initialData: initialData,
+  });
+
+  return <section className={styles.container}>{adv && <AdCard data={adv} />}</section>;
 };

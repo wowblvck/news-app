@@ -1,3 +1,6 @@
+'use client';
+
+import { useQuery } from '@tanstack/react-query';
 import moment from 'moment';
 import 'moment/locale/ru';
 import React from 'react';
@@ -6,11 +9,16 @@ import { CurrencyCodeFrom, CurrencyCodeTo } from '@/shared/api/currency';
 import { ChipCard } from './chip-card';
 import styles from './styles.module.scss';
 
-export const DateAndCurrencyInfo = async () => {
+export const DateAndCurrencyInfo = () => {
   const currentDate = moment().locale('ru').format('dd, D.MM.YYYY').toUpperCase();
-  const currencies = await getCurrency({
-    currencyFrom: ['USD', 'EUR', 'BTC'],
-    currencyTo: ['RUB', 'USD'],
+
+  const { data: currencies } = useQuery({
+    queryKey: ['currency'],
+    queryFn: () =>
+      getCurrency({
+        currencyFrom: ['USD', 'EUR', 'BTC'],
+        currencyTo: ['RUB', 'USD'],
+      }),
   });
 
   const renderChipCard = (currencyFrom: CurrencyCodeFrom, currencyTo: CurrencyCodeTo) => {
