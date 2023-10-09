@@ -38,3 +38,8 @@ client/.env
 client/.env.local
 client/.env.production
 client/.env.development
+
+### SERVER IGNORE
+
+# dependencies
+server/node_modules

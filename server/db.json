@@ -1,0 +1,682 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "date": "2023-08-28",
+      "date_full": "2023-08-28 07:13:44",
+      "title": "Сотни россиян застряли в Египте из-за отмен рейсов.",
+      "body": "Сотни россиян застряли в Египте из-за отмен рейсов.",
+      "thumbnail": "https://icdn.lenta.ru/images/2023/09/08/15/20230908155033256/owl_detail_620_0da29ece0d163b2298d4f08c1173cddc.jpg",
+      "categoryId": 8,
+      "reactionId": 1,
+      "hot": false
+    },
+    {
+      "id": 2,
+      "date": "2023-08-28",
+      "date_full": "2023-08-28 08:15:18",
+      "title": "На Украине заявили о невосполнимых потерях после российских ударов.",
+      "body": "На Украине заявили о невосполнимых потерях после российских ударов.",
+      "thumbnail": "https://img5tv.cdnvideo.ru/webp/shared/files/202309/1_1792081.jpg",
+      "categoryId": 8,
+      "reactionId": 2,
+      "hot": false
+    },
+    {
+      "id": 3,
+      "date": "2023-08-28",
+      "date_full": "2023-08-28 09:16:34",
+      "title": "ЕС ввел санкции против силовиков из Крыма из-за дела в отношении журналиста.",
+      "body": "ЕС ввел санкции против силовиков из Крыма из-за дела в отношении журналиста.",
+      "thumbnail": "https://icdn.lenta.ru/images/2023/09/08/16/20230908160247070/owl_detail_620_eed0a85b2c2017f15541ba2508d62863.jpg",
+      "categoryId": 8,
+      "reactionId": 3,
+      "hot": true
+    },
+    {
+      "id": 4,
+      "date": "2023-08-28",
+      "date_full": "2023-08-28 12:58:17",
+      "title": "Форвард «Локомотива» Дзюба оштрафован на 10 тысяч за выход на поле после замены.",
+      "body": "Нападающего \"Локомотива\" Артёма Дзюбу оштрафовали на десять тысяч рублей за поведение в матче против петербургского \"Зенита\".",
+      "thumbnail": "https://static.life.ru/publications/2023/9/24/1184662329834.5938-900x.jpeg",
+      "categoryId": 11,
+      "reactionId": 4,
+      "hot": false
+    },
+    {
+      "id": 5,
+      "date": "2023-08-29",
+      "date_full": "2023-08-29 09:45:22",
+      "title": "Создан препарат от рака с высокой эффективностью.",
+      "body": "Ученые представили новый препарат, способный успешно бороться с раковыми клетками.",
+      "thumbnail": "https://www.topnews.ru/wp-content/uploads/2023/09/oncologists-research.jpg",
+      "categoryId": 13,
+      "reactionId": 5,
+      "hot": true
+    },
+    {
+      "id": 6,
+      "date": "2023-08-30",
+      "date_full": "2023-08-30 15:20:10",
+      "title": "Запуск нового спутника для изучения Марса.",
+      "body": "Агентство космических исследований запустило новый спутник для более детального изучения планеты Марс.",
+      "thumbnail": "https://naked-science.ru/wp-content/uploads/2016/04/article_44.jpg",
+      "categoryId": 13,
+      "reactionId": 6,
+      "hot": false
+    },
+    {
+      "id": 7,
+      "date": "2023-09-01",
+      "date_full": "2023-09-01 18:55:30",
+      "title": "Новый смартфон покорил рынок электроники.",
+      "body": "Последняя модель смартфона стала хитом продаж благодаря своим передовым технологиям.",
+      "thumbnail": "https://4pda.to/s/as6yz18Cu57MenlTU1ez0z23nCubZMMz11U0MZwbn137GS1H.jpg?v=1679486118",
+      "categoryId": 13,
+      "reactionId": 7,
+      "hot": false
+    },
+    {
+      "id": 8,
+      "date": "2023-09-02",
+      "date_full": "2023-09-02 12:30:15",
+      "title": "Страна завоевывает золото в новом виде спорта.",
+      "body": "Спортсмены из определенной страны побеждают в новом виде олимпийских соревнований, завоевывая золотые медали.",
+      "thumbnail": "https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg):focal(1153x589:1155x587)/origin-imgresizer.eurosport.com/2021/07/26/3182861-65212488-2560-1440.jpg",
+      "categoryId": 11,
+      "reactionId": 8,
+      "hot": false
+    },
+    {
+      "id": 9,
+      "date": "2023-09-09",
+      "date_full": "2023-09-09 08:20:15",
+      "title": "Дизайнер представил уникальную коллекцию осенних нарядов.",
+      "body": "Известный дизайнер представил свою последнюю коллекцию, вдохновленную природой и осенними красками.",
+      "thumbnail": "https://cdnstatic.rg.ru/crop1300x868/uploads/images/2023/09/26/cachmeresilk_campaignfw23_24_13_b71.jpg",
+      "categoryId": 12,
+      "reactionId": 9,
+      "hot": false
+    },
+    {
+      "id": 10,
+      "date": "2023-09-10",
+      "date_full": "2023-09-10 13:45:30",
+      "title": "Грандиозное шоу с участием мировых знаменитостей.",
+      "body": "Шоу-бизнес-индустрия представила новый проект с участием звезд мирового масштаба, обещая незабываемое зрелище.",
+      "thumbnail": "https://cdn1.gpmradio.ru/vardata/modules/news/files/3/23786/news_file_23786_61c20d417a523.jpg",
+      "categoryId": 12,
+      "reactionId": 10,
+      "hot": false
+    },
+    {
+      "id": 11,
+      "date": "2023-09-11",
+      "date_full": "2023-09-11 18:10:25",
+      "title": "Стартап успешно привлек инвестиции на развитие инновационного проекта.",
+      "body": "Молодая компания объявила о привлечении значительных инвестиций для дальнейшего развития своего инновационного стартапа.",
+      "thumbnail": "https://regruss.ru/wp-content/uploads/2023/07/startup-umap.jpg",
+      "categoryId": 3,
+      "reactionId": 11,
+      "hot": false
+    },
+    {
+      "id": 12,
+      "date": "2023-09-12",
+      "date_full": "2023-09-12 10:55:18",
+      "title": "Представлен электрический суперкар с уникальными характеристиками.",
+      "body": "Ведущий производитель автомобилей представил свой новый электрический суперкар, обещая выдающуюся производительность и уникальный дизайн.",
+      "thumbnail": "https://mag.auto3n.ru/wp-content/uploads/2022/05/ferrari-predstavila-unikalnyj-superkar.jpg",
+      "categoryId": 2,
+      "reactionId": 12,
+      "hot": false
+    },
+    {
+      "id": 13,
+      "date": "2023-09-13",
+      "date_full": "2023-09-13 15:30:40",
+      "title": "Вузы внедряют инновационные методы обучения для студентов.",
+      "body": "Университеты внедряют новые образовательные технологии, направленные на улучшение процесса обучения и подготовку студентов к вызовам будущего.",
+      "thumbnail": "https://sun9-55.userapi.com/impg/b4TH23boWZU2OBMn0_LBgQ6Vv4lI9nooB9GXow/oVc7H33Y95E.jpg?size=1280x640&quality=96&proxy=1&sign=5e7a06e95c85f497434d556359be13ca",
+      "categoryId": 7,
+      "reactionId": 13,
+      "hot": false
+    },
+    {
+      "id": 14,
+      "date": "2023-09-14",
+      "date_full": "2023-09-14 20:45:55",
+      "title": "Открываются новые маршруты для путешественников.",
+      "body": "Туристические агентства предлагают новые увлекательные маршруты для путешественников, обещая незабываемые впечатления.",
+      "thumbnail": "https://dzen.ru/lz5XeGt8f/A97OcC215/1f0a70W-6hgE/XBsp9enKBmFwNFYdz4ANgEzYSD49IzLn1W9YV2DeO-yI3iwWxdq7H2L7GM5wRk-BsRvrIo8S4w_irgxQut5McGzvmEBonzIk8uAHuK512CCZXSkODOcG9nAqDDbkK25KPdotEgBPXsny6yjvgrTtsFZdXPH4BbH9YropldtKeFaaS981ylgHEFC0EG9OML2QfEu6LNvS09IEbdlQkR1JTzmd3PAgbo5KFO7_2fI3PKEEzt9ymZeQfZC7epd_m6ll-1yuVenrhgBThODNvYMPQj94yA6awFNyh7xL4cJ8me_5D47yoC8d6Tdsj7oyR81w932_Y5vHc8_ASOnmb5o5tjqNP9TYiyYTwGcD3z4TTBAsuDpu6YEzwCWt-GERTHu86b6dgoCevtrn3Y6Ikifu0tUcHvH7xkE9oGoY9Qz7S_cIH4wnSui0QgGVgd3MwMxQP3s6DkizciB132shIY3rLnkO_BECrI_ZlM0vqSOEvAMl3u9ASTdD7sLKy-e9GMpHOc_-Z7ra1xNzVlCfDhAOEP0rGp8KoQNAVV5p0UPfyR8o__ySgXyOCEce_VpDNF7zZ2_swZrU0fziO_qUDMprJEgvLxbb2kdC8YQy3s8x_hGPWVsuCeCAIUS9iWMA_3veCR6OoWCcHRj07K65gudf4nZs3zPr1OOsgqr6hV0q29Qp3Q20WFqFcUJ30Zy-oOwi_Cq7ThnyoyBXbEiBwWzJv8gufJET_v06hQ9v-SB0HcAnfB1Qm7Wz7rJou9esCMhFSd99pQjo9zOglYI__wEfgk86-d8ZEqDRV-w4ATJ_S17ofBzwI81v6VXsrtqRpW9R1K8ug3v1Qe9yOOsFTOvYF6kdH_fKmFQjEQQCPL-jbdBeyumO2KMjUZZ-eQNiDInM2NwsgvF8_atW7n6qQHeeAgY-nKAJpaN9wAlJpF45ihcKPX2FOgp0oVJ1Ii3dgp9ynUupnFixsjOFjRnRMYwpHEr8PhIQHLwJdm4s2QBH3PN3Ld2TSZeSPZFqGtevatpX2-2sprgJB_HQFXAejyL8cO9KmbxJIRCgte9LYoFsmF4YvqzBEBw_-nW-LGhx5B6SBG0PQlvmkf_jqvlVXvraFxleXyXIuUWi8FfyDuwRP1HfeWtOOZLyIqWfGiDxHPku2N29gpDu3Cj3XO1LsMeN48dN7nJqhuN9Auk5FR9YWTWK7vxnmokEclGnUi8Msh5AHug5DokQ41GGvzgxIz95_CmcLJEzfb-Ixq6_CbAFbgEFL7-RmmaDv7IryZY9y5t0S38fRooYN4PzZiHNnrDNcd4Kyc6pUPOhNW1pc3G-id277Lyi8M7MKlZdfvhzJH9yJe4dMsnGsFzwqou0b4mohPq9PYZZqoVDo4VC7J2Av8KceSofqeNhM3WMaHIRbNiM6TweYHMO_nlEnmz4YwWfEvQ8DvFI5aBeo5iJhX_KaKcY7S-FuMm3o0IFUB3NEoww_IkqTVtgAyAWDTvBUO6IXVof34DSDc_LRr4fejOXzvDVXZ5AuYZCf2GbamduiChVGq0-lthKRXIwBhDMHhLuMo0JGh9ZAtMiVd0p0LHvei4Kj80RIL3uChXtjZvTJw9DVd-uMZrEY37QmtjUfVrbFhrcXJW6S4WjkDcSPQygv0LM2EsNumLj0xffK0IQfPl9uw98ERJ_39tWXr270tWOkLUOjWJo9tEP8igZ1Q46GiXZTz-0aljUcxF1IM8doB1z7xgLbJmw4xPWf9nRM94pLcsdvjABThxIdrzMSKGFDTD0n65ACHcwL2O4qwf_a_l2GS9NdziK9fHBJbItf4Jtoby6GCypILNAN3-7IuBMidwIX4-DAP9OqYVOzskixo1wJk6_UvjF856CW5kUD3vrRVvOjZXbmJaBk7fzjLxCj8C_GAtMeXBDAKfPShMB70ndyLzOwtN9fZi2vn9KkMRNkKaMvYKKNrGPc6ia5C_r61QrL7wm2NhUQGM1c",
+      "categoryId": 9,
+      "reactionId": 14,
+      "hot": false
+    },
+    {
+      "id": 15,
+      "date": "2023-09-15",
+      "date_full": "2023-09-15 12:20:22",
+      "title": "Рост индекса национальной экономики за последний квартал.",
+      "body": "Экономика страны продолжает показывать положительную динамику, отмечается рост ключевых показателей национального экономического индекса.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Moscow_%2852078730783%29.jpg/1200px-Moscow_%2852078730783%29.jpg?20220520074730",
+      "categoryId": 14,
+      "reactionId": 15,
+      "hot": true
+    },
+    {
+      "id": 16,
+      "date": "2023-09-16",
+      "date_full": "2023-09-16 17:35:35",
+      "title": "Новый хитовый альбом певца лидирует в чартах.",
+      "body": "Последний музыкальный проект известного певца стал хитом, завоевав вершины музыкальных чартов и завоевав сердца поклонников.",
+      "thumbnail": "https://cdnn21.img.ria.ru/images/07e4/03/14/1568889345_675:0:3352:1506_600x0_80_0_0_a3c26db792466932c8c8440a8b36f465.jpg.webp",
+      "categoryId": 10,
+      "reactionId": 16,
+      "hot": false
+    },
+    {
+      "id": 17,
+      "date": "2023-09-17",
+      "date_full": "2023-09-17 09:15:45",
+      "title": "Компания внедряет технологии искусственного интеллекта для оптимизации производства.",
+      "body": "Крупная компания внедряет передовые технологии искусственного интеллекта с целью повышения эффективности производства и сокращения затрат.",
+      "thumbnail": "https://www.securitylab.ru/upload/iblock/b23/a44m3rn6m2c5gu8p9s630c0mnm1ewgxh.jpg",
+      "categoryId": 3,
+      "reactionId": 17,
+      "hot": true
+    },
+    {
+      "id": 18,
+      "date": "2023-09-18",
+      "date_full": "2023-09-18 14:50:55",
+      "title": "Представлен концептуальный автомобиль с автопилотом.",
+      "body": "Ведущий автопроизводитель представил свой новый концептуальный автомобиль, оборудованный передовыми технологиями автопилота.",
+      "thumbnail": "https://i.cenyavto.com/2021/09/eYN8-1536x1152.jpeg",
+      "categoryId": 2,
+      "reactionId": 18,
+      "hot": false
+    },
+    {
+      "id": 19,
+      "date": "2023-09-19",
+      "date_full": "2023-09-19 18:05:10",
+      "title": "Онлайн-платформа предлагает уникальные курсы для профессионального роста.",
+      "body": "Онлайн-платформа запускает новые курсы, направленные на повышение квалификации и профессиональное развитие учащихся.",
+      "thumbnail": "https://avatars.dzeninfra.ru/get-zen_doc/8116983/pub_641e1d17d4b1f54fcf5698df_641e1d406ece11642c3003a3/scale_1200",
+      "categoryId": 7,
+      "reactionId": 19,
+      "hot": true
+    },
+    {
+      "id": 20,
+      "date": "2023-09-20",
+      "date_full": "2023-09-20 11:30:25",
+      "title": "Популярные направления для независимых путешественников.",
+      "body": "Новые туристические тренды предлагают уникальные направления для тех, кто предпочитает независимые путешествия и открытия.",
+      "thumbnail": "https://avatars.dzeninfra.ru/get-zen_doc/10165010/pub_64ad0073e90b0b34649db9ef_64ad07abe5b29e6d958d3704/scale_1200",
+      "categoryId": 9,
+      "reactionId": 20,
+      "hot": false
+    },
+    {
+      "id": 21,
+      "date": "2023-09-21",
+      "date_full": "2023-09-21 15:40:40",
+      "title": "Эксперты анализируют перспективы мирового рынка в ближайшем будущем.",
+      "body": "Экспертное обсуждение текущей ситуации на мировом рынке и анализ перспектив развития в ближайшие месяцы.",
+      "thumbnail": "https://cdnn21.img.ria.ru/images/07e7/02/1b/1854649561_0:257:3072:1985_640x0_80_0_0_5bbc9770ba834307a8215ed0d13312a5.jpg.webp",
+      "categoryId": 14,
+      "reactionId": 21,
+      "hot": true
+    },
+    {
+      "id": 22,
+      "date": "2023-09-22",
+      "date_full": "2023-09-22 09:50:18",
+      "title": "Резкий рост цены на биткоин после важного объявления.",
+      "body": "Цена на биткоин стремительно выросла после важного объявления от крупного финансового института, поддерживающего использование криптовалют.",
+      "thumbnail": "https://s0.rbk.ru/v6_top_pics/resized/590xH/media/img/7/26/756130533600267.png",
+      "categoryId": 5,
+      "reactionId": 22,
+      "hot": true
+    },
+    {
+      "id": 23,
+      "date": "2023-09-23",
+      "date_full": "2023-09-23 14:25:30",
+      "title": "Запуск нового блокчейн-проекта с уникальными возможностями.",
+      "body": "Команда разработчиков представила новый блокчейн-проект, обещающий революцию в области цифровых активов и смарт-контрактов.",
+      "thumbnail": "https://coinnet.ru/wp-content/uploads/2018/05/project_2.jpg",
+      "categoryId": 5,
+      "reactionId": 23,
+      "hot": false
+    },
+    {
+      "id": 24,
+      "date": "2023-09-24",
+      "date_full": "2023-09-24 18:10:25",
+      "title": "Рост спроса на жилье в центральных районах города.",
+      "body": "Спрос на недвижимость в центральных районах города заметно увеличился, ведущие к росту цен на жилье в этих регионах.",
+      "thumbnail": "https://s0.rbk.ru/v6_top_pics/resized/900xH/media/img/4/42/346847582426424.webp",
+      "categoryId": 6,
+      "reactionId": 24,
+      "hot": true
+    },
+    {
+      "id": 25,
+      "date": "2023-09-25",
+      "date_full": "2023-09-25 11:45:18",
+      "title": "Правительство принимает новые законы для развития цифровых активов.",
+      "body": "Власти вводят новые законы и регулирования для развития криптовалютного рынка и обеспечения безопасности инвесторов.",
+      "thumbnail": "https://notariat.ru/media/news/e0/7c/e07c55ca8b924011a2833ee8a091f536.jpg",
+      "categoryId": 5,
+      "reactionId": 25,
+      "hot": false
+    },
+    {
+      "id": 26,
+      "date": "2023-09-26",
+      "date_full": "2023-09-26 15:30:40",
+      "title": "Старт продаж нового жилого комплекса с инфраструктурой будущего.",
+      "body": "Запущен процесс продаж квартир в инновационном жилом комплексе, который обещает комфорт и современные технологии.",
+      "thumbnail": "https://www.newsko.ru/media/7849632/kamapolis.jpg",
+      "categoryId": 6,
+      "reactionId": 26,
+      "hot": true
+    },
+    {
+      "id": 27,
+      "date": "2023-09-27",
+      "date_full": "2023-09-27 20:15:55",
+      "title": "Новый прогноз экспертов о будущем криптовалюты.",
+      "body": "Эксперты высказывают свои прогнозы относительно будущего биткоина, основываясь на текущих тенденциях и событиях на рынке.",
+      "thumbnail": "https://news.liga.net/images/general/2023/04/13/thumbnail-tw-20230413140521-4568.jpg?v=1681383922?v=1681383922",
+      "categoryId": 5,
+      "reactionId": 27,
+      "hot": false
+    },
+    {
+      "id": 28,
+      "date": "2023-09-28",
+      "date_full": "2023-09-28 12:40:22",
+      "title": "Применение 3D-технологий для возведения новых жилых комплексов.",
+      "body": "Строительные компании внедряют передовые 3D-технологии для ускорения и улучшения процесса строительства жилья.",
+      "thumbnail": "http://www.n-zodchie.com/images/articles/3D-%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%B2-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B5.JPG",
+      "categoryId": 6,
+      "reactionId": 28,
+      "hot": true
+    },
+    {
+      "id": 29,
+      "date": "2023-09-29",
+      "date_full": "2023-09-29 09:30:18",
+      "title": "Пожар в историческом здании потушен спасателями.",
+      "body": "Спасатели смогли успешно потушить пожар, который охватил историческое здание в центре города. Происшествие не обошлось без потерь, но удалось предотвратить дальнейшее распространение огня на соседние постройки.",
+      "thumbnail": "https://cdn-st1.smotrim.ru/vh/pictures/xw/222/242/4.jpg",
+      "categoryId": 1,
+      "reactionId": 29,
+      "hot": true
+    },
+    {
+      "id": 30,
+      "date": "2023-09-30",
+      "date_full": "2023-09-30 15:45:30",
+      "title": "Серьезное столкновение на автостраде с требованием оказания медицинской помощи.",
+      "body": "На автостраде произошло столкновение нескольких автомобилей, что привело к серьезным травмам участников. Спасатели и медицинский персонал прибыли на место происшествия для предоставления неотложной медицинской помощи пострадавшим.",
+      "thumbnail": "https://ural24.com/upload/resize_cache/iblock/e3e/569_569_0/d1q2fvaucfa9369qr727z8834xaz8hso.JPG",
+      "categoryId": 1,
+      "reactionId": 30,
+      "hot": false
+    }
+  ],
+  "reactions": [
+    {
+      "id": 1,
+      "like": 23,
+      "dislike": 19,
+      "bullshit": 2,
+      "comments": 17,
+      "bookmarks": 25
+    },
+    {
+      "id": 2,
+      "like": 15,
+      "dislike": 8,
+      "bullshit": 5,
+      "comments": 12,
+      "bookmarks": 20
+    },
+    {
+      "id": 3,
+      "like": 28,
+      "dislike": 10,
+      "bullshit": 3,
+      "comments": 22,
+      "bookmarks": 18
+    },
+    {
+      "id": 4,
+      "like": 20,
+      "dislike": 15,
+      "bullshit": 1,
+      "comments": 10,
+      "bookmarks": 30
+    },
+    {
+      "id": 5,
+      "like": 25,
+      "dislike": 12,
+      "bullshit": 4,
+      "comments": 18,
+      "bookmarks": 27
+    },
+    {
+      "id": 6,
+      "like": 18,
+      "dislike": 5,
+      "bullshit": 8,
+      "comments": 14,
+      "bookmarks": 22
+    },
+    {
+      "id": 7,
+      "like": 30,
+      "dislike": 7,
+      "bullshit": 6,
+      "comments": 25,
+      "bookmarks": 21
+    },
+    {
+      "id": 8,
+      "like": 22,
+      "dislike": 14,
+      "bullshit": 3,
+      "comments": 20,
+      "bookmarks": 26
+    },
+    {
+      "id": 9,
+      "like": 17,
+      "dislike": 9,
+      "bullshit": 5,
+      "comments": 16,
+      "bookmarks": 28
+    },
+    {
+      "id": 10,
+      "like": 27,
+      "dislike": 11,
+      "bullshit": 2,
+      "comments": 19,
+      "bookmarks": 24
+    },
+    {
+      "id": 11,
+      "like": 19,
+      "dislike": 13,
+      "bullshit": 4,
+      "comments": 15,
+      "bookmarks": 23
+    },
+    {
+      "id": 12,
+      "like": 23,
+      "dislike": 6,
+      "bullshit": 7,
+      "comments": 13,
+      "bookmarks": 29
+    },
+    {
+      "id": 13,
+      "like": 16,
+      "dislike": 10,
+      "bullshit": 1,
+      "comments": 21,
+      "bookmarks": 25
+    },
+    {
+      "id": 14,
+      "like": 29,
+      "dislike": 8,
+      "bullshit": 3,
+      "comments": 17,
+      "bookmarks": 19
+    },
+    {
+      "id": 15,
+      "like": 21,
+      "dislike": 12,
+      "bullshit": 5,
+      "comments": 11,
+      "bookmarks": 30
+    },
+    {
+      "id": 16,
+      "like": 26,
+      "dislike": 7,
+      "bullshit": 6,
+      "comments": 23,
+      "bookmarks": 20
+    },
+    {
+      "id": 17,
+      "like": 18,
+      "dislike": 14,
+      "bullshit": 2,
+      "comments": 24,
+      "bookmarks": 27
+    },
+    {
+      "id": 18,
+      "like": 31,
+      "dislike": 9,
+      "bullshit": 4,
+      "comments": 19,
+      "bookmarks": 22
+    },
+    {
+      "id": 19,
+      "like": 24,
+      "dislike": 11,
+      "bullshit": 8,
+      "comments": 14,
+      "bookmarks": 21
+    },
+    {
+      "id": 20,
+      "like": 16,
+      "dislike": 5,
+      "bullshit": 7,
+      "comments": 25,
+      "bookmarks": 28
+    },
+    {
+      "id": 21,
+      "like": 28,
+      "dislike": 13,
+      "bullshit": 3,
+      "comments": 20,
+      "bookmarks": 26
+    },
+    {
+      "id": 22,
+      "like": 20,
+      "dislike": 6,
+      "bullshit": 1,
+      "comments": 16,
+      "bookmarks": 24
+    },
+    {
+      "id": 23,
+      "like": 32,
+      "dislike": 8,
+      "bullshit": 4,
+      "comments": 15,
+      "bookmarks": 23
+    },
+    {
+      "id": 24,
+      "like": 15,
+      "dislike": 6,
+      "bullshit": 3,
+      "comments": 67,
+      "bookmarks": 19
+    },
+    {
+      "id": 25,
+      "like": 15,
+      "dislike": 7,
+      "bullshit": 2,
+      "comments": 21,
+      "bookmarks": 25
+    },
+    {
+      "id": 26,
+      "like": 27,
+      "dislike": 12,
+      "bullshit": 6,
+      "comments": 17,
+      "bookmarks": 19
+    },
+    {
+      "id": 27,
+      "like": 19,
+      "dislike": 9,
+      "bullshit": 3,
+      "comments": 11,
+      "bookmarks": 30
+    },
+    {
+      "id": 28,
+      "like": 24,
+      "dislike": 11,
+      "bullshit": 7,
+      "comments": 23,
+      "bookmarks": 20
+    },
+    {
+      "id": 29,
+      "like": 16,
+      "dislike": 14,
+      "bullshit": 4,
+      "comments": 24,
+      "bookmarks": 27
+    },
+    {
+      "id": 30,
+      "like": 30,
+      "dislike": 5,
+      "bullshit": 1,
+      "comments": 19,
+      "bookmarks": 22
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "value": "происшествия",
+      "label": "Происшествия",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "value": "авто",
+      "label": "Авто",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "value": "бизнес",
+      "label": "Бизнес",
+      "order": 3
+    },
+    {
+      "id": 4,
+      "value": "здоровье",
+      "label": "Здоровье",
+      "order": 4
+    },
+    {
+      "id": 5,
+      "value": "крипто",
+      "label": "Крипто",
+      "order": 5
+    },
+    {
+      "id": 6,
+      "value": "недвижимость",
+      "label": "Недвижимость",
+      "order": 6
+    },
+    {
+      "id": 7,
+      "value": "образование",
+      "label": "Образование",
+      "order": 7
+    },
+    {
+      "id": 8,
+      "value": "политика",
+      "label": "Политика",
+      "order": 8
+    },
+    {
+      "id": 9,
+      "value": "туризм",
+      "label": "Туризм",
+      "order": 9
+    },
+    {
+      "id": 10,
+      "value": "шоу-бизнес",
+      "label": "Шоу-бизнес",
+      "order": 10
+    },
+    {
+      "id": 11,
+      "value": "спорт",
+      "label": "Спорт",
+      "order": 11
+    },
+    {
+      "id": 12,
+      "value": "стиль",
+      "label": "Стиль",
+      "order": 12
+    },
+    {
+      "id": 13,
+      "value": "наука-и-технологии",
+      "label": "Наука и технологии",
+      "order": 13
+    },
+    {
+      "id": 14,
+      "value": "экономика",
+      "label": "Экономика",
+      "order": 14
+    }
+  ],
+  "advertise": [
+    {
+      "id": 1,
+      "link": "https://wowblvck.tech",
+      "image": "https://wowblvck.tech/assets/profile-0d03413b.webp",
+      "body": "Переходи на мой сайт и я расскажу тебе как стать успешным Frontend-разработчиком"
+    },
+    {
+      "id": 2,
+      "link": "https://tvoe.live",
+      "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/8e6cf582-2c40-425d-9ed7-bfd14273940b/3840x",
+      "body": "Смотри новые фильмы и сериалы онлайн на TVOЁ.live с подпиской за 7 рублей в день"
+    },
+    {
+      "id": 3,
+      "link": "https://vc.ru/u/1692689-neyrochat/655129-kak-besplatno-ispolzovat-chat-gpt-4",
+      "image": null,
+      "body": "Как бесплатно использовать Chat GPT-4"
+    }
+  ]
+}
