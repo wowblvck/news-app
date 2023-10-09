@@ -1,0 +1,12 @@
+@use '@/app/styles/mixins' as mix;
+
+.container {
+  flex: 1;
+  border-radius: 12px;
+  background: var(--color-white);
+  overflow: hidden;
+
+  @include mix.responsive(xs, sm, md) {
+    flex: auto;
+  }
+}

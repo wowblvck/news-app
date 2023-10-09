@@ -1,0 +1,22 @@
+{
+  "name": "news-app-fakeserver",
+  "version": "1.0.0",
+  "description": "Fake server for News App",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowblvck/news-app-fakeserver.git"
+  },
+  "author": "wowblvck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wowblvck/news-app-fakeserver/issues"
+  },
+  "homepage": "https://github.com/wowblvck/news-app-fakeserver#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

@@ -1,0 +1,26 @@
+@import './breakpoints';
+
+:root {
+  --color-white: #ffffff;
+
+  --color-black-primary: #000000;
+  --color-black-secondary: #262626;
+  --color-black-tertiary: #333;
+
+  --color-gray-primary: #f2f2f2;
+  --color-gray-secondary: #f7f7f7;
+  --color-gray-tertiary: #838383;
+  --color-gray-quaternary: #848484;
+  --color-gray-fivefold: #474747;
+
+  --color-orange: #ff6b00;
+
+  --breakpoint-xs: #{$xs};
+  --breakpoint-sm: #{$sm};
+  --breakpoint-md: #{$md};
+  --breakpoint-lg: #{$lg};
+  --breakpoint-xl: #{$xl};
+  --breakpoint-xxl: #{$xxl};
+
+  --offset-nav-position: 20;
+}

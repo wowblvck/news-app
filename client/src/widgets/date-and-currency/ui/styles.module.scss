@@ -1,0 +1,10 @@
+@use '@/app/styles/mixins' as mix;
+
+.container {
+  display: flex;
+  gap: 20px;
+
+  @include mix.responsive(xs, sm) {
+    display: none;
+  }
+}

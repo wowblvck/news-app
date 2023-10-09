@@ -1,0 +1,31 @@
+@use './breakpoints' as breakpoint;
+
+@mixin responsive($media...) {
+  @each $value in $media {
+    @if $value == xxl {
+      @media only screen and (min-width: (breakpoint.$xxl)) {
+        @content;
+      }
+    } @else if $value == xl {
+      @media only screen and (min-width: #{(breakpoint.$xl)}px) and (max-width: #{(breakpoint.$xxl - 0.02)}px) {
+        @content;
+      }
+    } @else if $value == lg {
+      @media only screen and (min-width: #{(breakpoint.$lg)}px) and (max-width: #{(breakpoint.$xl - 0.02)}px) {
+        @content;
+      }
+    } @else if $value == md {
+      @media only screen and (min-width: #{(breakpoint.$md)}px) and (max-width: #{(breakpoint.$lg - 0.02)}px) {
+        @content;
+      }
+    } @else if $value == sm {
+      @media only screen and (min-width: #{(breakpoint.$sm)}px) and (max-width: #{(breakpoint.$md - 0.02)}px) {
+        @content;
+      }
+    } @else if $value == xs {
+      @media only screen and (min-width: #{(breakpoint.$xs)}px) and (max-width: #{(breakpoint.$sm - 0.02)}px) {
+        @content;
+      }
+    }
+  }
+}

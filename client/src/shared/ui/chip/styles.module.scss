@@ -1,0 +1,15 @@
+.chip {
+  display: flex;
+  align-items: center;
+  background: var(--color-orange);
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+.title {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--color-white);
+  white-space: nowrap;
+}

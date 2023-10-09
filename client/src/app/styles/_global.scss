@@ -1,0 +1,43 @@
+@use './mixins' as mix;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  background: var(--color-gray-secondary);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.categorySection {
+  @include mix.responsive(xs) {
+    scroll-margin-top: 115px;
+  }
+}

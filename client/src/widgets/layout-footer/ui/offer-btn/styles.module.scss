@@ -1,0 +1,32 @@
+@use '@/app/styles/mixins' as mix;
+
+.btn {
+  grid-area: footer-offer;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 8px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  min-width: max-content;
+  justify-content: center;
+  align-self: flex-end;
+  justify-self: flex-end;
+
+  @include mix.responsive(xs) {
+    justify-self: center;
+    align-self: auto;
+  }
+
+  &:active {
+    position: relative;
+    top: -2px;
+  }
+}

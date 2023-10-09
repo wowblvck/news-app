@@ -1,0 +1,32 @@
+@use '@/app/styles/mixins' as mix;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+
+  @include mix.responsive(xs) {
+    padding: 16px;
+  }
+}
+
+.title {
+  font-family: var(--font-roboto);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--color-black-secondary);
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
