@@ -2,11 +2,9 @@
   "name": "news-app-fakeserver",
   "version": "1.0.0",
   "description": "Fake server for News App",
-  "main": "index.js",
+  "main": "api/server.js",
   "scripts": {
-    "dev": "json-server --watch db.json",
-    "dev:routes": "json-server --watch db.json --routes routes.json",
-    "start": "node server.js"
+    "start": "node api/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,7 @@
     "url": "https://github.com/wowblvck/news-app-fakeserver/issues"
   },
   "homepage": "https://github.com/wowblvck/news-app-fakeserver#readme",
-  "devDependencies": {
+  "dependencies": {
     "json-server": "^0.17.4"
   }
 }
