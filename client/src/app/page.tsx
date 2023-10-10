@@ -6,19 +6,14 @@ import { ReadMore } from '@/widgets/read-more';
 import { getAdvertise, getCategoriesData, getLastFeeds, getMajorNews, getNews } from '@/shared/api';
 import { Container } from '@/shared/ui';
 
+export const dynamic = 'force-dynamic';
+
 export default async function Main() {
-  /* Необходимо для предварительной загрузки данных (SSR).
-     Минус подхода в том, что если не выполнится один из промисов, то будет ошибка на всей странице.
-     Плюс такого подхода в том, что мы получаем предварительно загруженные данные (good for SEO).
-     Можно удалить, но в таком случае первичные данные будут загружаться у клиента (bad for SEO).
-  */
-  const [categories, feeds, majorNews, adv, news] = await Promise.all([
-    getCategoriesData({ sortBy: 'order', order: 'asc' }),
-    getLastFeeds(),
-    getMajorNews(),
-    getAdvertise(),
-    getNews(5),
-  ]);
+  const categories = await getCategoriesData({ sortBy: 'order', order: 'asc' });
+  const feeds = await getLastFeeds();
+  const majorNews = await getMajorNews();
+  const adv = await getAdvertise();
+  const news = await getNews(5);
 
   return (
     <Container>

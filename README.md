@@ -175,19 +175,18 @@
 
 1. Для корректной работы приложения необходимо указать переменные среды. Название переменных указаны в
    файле [.env.example](client/.env.example).
-2. Файл `.env` располагается в корневом разделе приложения.
+2. Файл `.env` располагается в папке [клиента](client).
 3. Для отображения курса валют необходимо настроить работу стороннего сервиса, предоставляющего данные курса валют.
    По-умолчанию, приложение настроено на работу с сервисом [CryptoCompare](https://cryptocompare.com). Для того, что
    использовать сервис [CryptoCompare](https://cryptocompare.com) необходимо получить API-ключ.
-4. Описание файла `.env`:
+4. Описание файла `.env` клиента:
+   ```bash
+   NEXT_PUBLIC_BASE_URL="PUT SERVER URL ENDPOINT HERE"
+   NEXT_PUBLIC_CRYPTO_COMPARE_URL="PUT CRYPTO COMPARE URL ENDPOINT HERE"
+   NEXT_PUBLIC_CRYPTO_COMPARE_API_KEY="PUT CRYPTO COMPARE API KEY HERE"
+   ```
 
-```bash
-NEXT_PUBLIC_BASE_URL="PUT SERVER URL ENDPOINT HERE"
-NEXT_PUBLIC_CRYPTO_COMPARE_URL="PUT CRYPTO COMPARE URL ENDPOINT HERE"
-NEXT_PUBLIC_CRYPTO_COMPARE_API_KEY="PUT CRYPTO COMPARE API KEY HERE"
-```
-
-## Конфигурация приложения
+## Конфигурация прилождляения
 
 > Базовая конфигурация приложения [config](client/src/shared/config)
 
@@ -214,32 +213,32 @@ NEXT_PUBLIC_CRYPTO_COMPARE_API_KEY="PUT CRYPTO COMPARE API KEY HERE"
 
 Клиентская часть ([/client](/client))
 
-1. Для работы приложения требуется NodeJS версии `>= 18.18`
-2. Для запуска приложения в режиме разработчика использовать `npm run dev`
-3. Для сборки использовать `npm run build`
+1. Для работы приложения требуется NodeJS версии `>= 18.18`.
+2. Для запуска приложения в режиме разработчика использовать `npm run dev`.
+3. Для сборки использовать `npm run build`.
+4. Для запуска использовать `npm run start`.
 
 Серверная часть ([/server](/server))
 
-1. Для работы приложения требуется NodeJS версии `>= 18.18`
-2. Для запуска приложения в режиме разработчика использовать `npm run dev` или `npm run dev:routes` (для включения
-   маршрутизации)
-3. Для запуска использовать `npm run start`
+1. Для работы приложения требуется NodeJS версии `>= 18.18`.
+2. Для запуска приложения в режиме разработчика использовать `npm run dev`.
+3. Для запуска использовать `npm run start`.
 
 ## Запуск Docker
 
 > ВАЖНО: перед запуском убедитесь, что у Вас установлен [Docker](https://docs.docker.com/engine/install/), а
 > также [Docker Compose](https://docs.docker.com/compose/gettingstarted/)
 
-1. Для запуска Docker-контейнера, необходимо в клиент-приложении ([/client](/client)) создать файл `.env.production` с
-   ключами, указанными в
-   разделе `Настройка приложения`.
+1. Для запуска Docker-контейнера, необходимо в папке клиента ([/client](/client)) создать
+   файл `.env.production` с
+   ключами, указанными в разделе `Настройка приложения`.в
 2. Для запуска сборки Docker-контейнера выполните следующую команду:
    ```bash
    docker-compose up -d
    ```
 3. Docker-контейнер запустится в фоновом режиме.
-4. Клиент-приложение будет доступно по адресу http://localhost:80.
-5. Сервер-приложение будет доступно по адресу http://localhost:5000.
+4. Клиент-приложение будет доступно по адресу http://localhost:8080.
+5. Сервер-приложение будет доступно по адресу http://localhost:3001.
 
 ---
 
