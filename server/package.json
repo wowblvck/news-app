@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wowblvck/news-app-fakeserver#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "json-server": "^0.17.4"
   }
 }

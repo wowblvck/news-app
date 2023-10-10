@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: news-app-api
+    ports:
+      - "3001:3001"
+    networks:
+      - network
+
+  web:
+    container_name: news-app-web
+    networks:
+      - network
+    env_file:
+      - ./client/.env.production
+    environment:
+      - NEXT_PUBLIC_BASE_URL=http://api:3001
+    ports:
+      - "8080:3000"
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+
+networks:
+  network:
+    driver: bridge
